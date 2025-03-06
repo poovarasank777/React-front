@@ -1,0 +1,33 @@
+.image-container1 {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    height: 400px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image-container1 img:hover {
+    transform: scale(1.05);
+  }
+  .image-item1 {
+    text-align: center; 
+    width: 100%; 
+    height: 100%;
+  }
+  .image-item1 video {
+    width: 500px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+  }
+  .image-item2 {
+    width: 100%; 
+    height: 100%;
+  }
+  .image-item2 img {
+    width: 500px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+  }
+  
