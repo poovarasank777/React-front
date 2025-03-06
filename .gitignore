@@ -1,5 +1,6 @@
 # Node.js dependencies
 /node_modules/
+servers/node_modules
 
 # Build output
 /build/
