@@ -1,0 +1,48 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/build/
+/dist/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (you might have sensitive data here, like DB credentials, API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports (if using testing tools like Jest)
+/coverage/
+
+# Temporary files
+*.swp
+*.swo
+
+# Next.js build (if using Next.js in your MERN stack)
+.next/
+
+# Debugger directory for Visual Studio Code (if using remote debugging)
+.vscode-server/
+
+# MongoDB data directory (if storing data locally for development)
+data/
+
+# Generated files by transpilers or bundlers
+*.log
+*.bak
+*.tmp
+*.swp
